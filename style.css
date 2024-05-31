@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.carousel-caption h5{
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+#card-profile{
+    padding-top: 2rem;
+    margin: 0 4rem;
+}
+
+/*About*/
+
+#about{
+    padding-top: 2rem;
+    margin: 0 4rem;
+}
+
+.about-conatiner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+
+.title h2{
+    text-align: center;
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #17a2b8;
+
+}
+.profile {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .name {
+    font-family: "Lovers Quarrel", cursive;
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #17a2b8;
+  }
+  .nameTwo {
+    font-family: "Lovers Quarrel", cursive;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #17a2b8;
+  }
+
+  .description {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+
+  .social-icons img {
+    width: 24px;
+    margin: 0 5px;
+  }
+
+
+  /*weddingTime*/
+
+  #invitation{
+    padding-top: 2rem;
+    margin: 0 4rem;
+}
+.section__text{
+    text-align: center;
+}
+.section__text p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+  .launch-time{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.launch{
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+.card-title{
+    text-align: center;
+}
+
+
+/*Footer*/
+
+.footer {
+ 
+    padding: 20px 0;
+}
+.footer a {
+    color: #343a40;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #007bff;
+}
